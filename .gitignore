@@ -1,3 +1,10 @@
 __pycache__/
 *.pyc
 .impeccable/
+
+# Local environment secrets (keep safe templates versioned)
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
